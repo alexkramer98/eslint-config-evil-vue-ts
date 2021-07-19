@@ -5,7 +5,7 @@ module.exports = {
         'plugin:vue/recommended',
         '@vue/typescript',
     ],
-    plugins: ["no-loops", "prettier"],
+    plugins: ["no-loops", "prettier", "import"],
     env: {
         es2021: true,
         browser: true,
@@ -133,5 +133,15 @@ module.exports = {
                 "import/no-anonymous-default-export": "off"
             }
         }
-    ]
+    ],
+    settings: {
+        "import/resolver": {
+            alias: {
+                map: [
+                    ['@', './src']
+                ],
+                extensions: ['.js', '.json', '.vue']
+            }
+        }
+    },
 }
