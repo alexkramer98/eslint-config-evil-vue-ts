@@ -98,7 +98,29 @@ module.exports = {
             { "avoidEscape": true, "allowTemplateLiterals": false }
         ],
 
-        "putout/putout": "off"
+        "putout/putout": "off",
+
+        "@typescript-eslint/naming-convention": [
+            "error",
+            {
+                "selector": "default",
+                "format": ["strictCamelCase"]
+            },
+            {
+                "selector": "function",
+                "format": ["strictCamelCase", "StrictPascalCase"]
+            },
+            {
+                "selector": "typeLike",
+                "format": ["StrictPascalCase"]
+            },
+            {
+                "selector": ["variable", "parameter"],
+                "types": ["boolean"],
+                "format": ["PascalCase"],
+                "prefix": ["is", "has", "are", "can", "should", "did", "will"]
+            }
+        ],
     },
     overrides: [
         {
