@@ -5,7 +5,11 @@ module.exports = {
         'plugin:vue/recommended',
         '@vue/typescript',
     ],
-    plugins: ["no-loops", "prettier", "import"],
+    plugins: [
+        "no-loops",
+        "plugin:prettier/recommended",
+        "import"
+    ],
     env: {
         es2021: true,
         browser: true,
