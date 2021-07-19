@@ -4,10 +4,10 @@ module.exports = {
         'eslint-config-hardcore/ts-for-js',
         'plugin:vue/recommended',
         '@vue/typescript',
+        'plugin:prettier/recommended'
     ],
     plugins: [
         "no-loops",
-        "plugin:prettier/recommended",
         "import"
     ],
     env: {
