@@ -5,6 +5,7 @@ module.exports = {
         'plugin:vue/recommended',
         '@vue/typescript',
     ],
+    plugins: ["no-loops", "prettier"],
     env: {
         es2021: true,
         browser: true,
