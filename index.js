@@ -94,6 +94,8 @@ module.exports = {
             "single",
             { "avoidEscape": true, "allowTemplateLiterals": false }
         ],
+
+        "putout/putout": "off"
     },
     overrides: [
         {
