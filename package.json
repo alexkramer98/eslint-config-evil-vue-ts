@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-evil-vue-ts",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "eslint-config-hardcore based ultra strict VueJS + typescript compatible ESLint config",
   "main": "index.js",
   "repository": {
@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "eslint-config-hardcore": "^19.15.1",
+    "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-vue": "^7.14.0"
   }
