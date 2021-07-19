@@ -116,7 +116,7 @@ module.exports = {
             },
             {
                 "selector": "objectLiteralProperty",
-                "format": ["strictPascalCase", "StrictPascalCase"]
+                "format": ["strictCamelCase", "StrictPascalCase"]
             },
             {
                 "selector": ["variable", "parameter", "accessor"],
