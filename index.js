@@ -88,6 +88,12 @@ module.exports = {
                 "allowDirectConstAssertionInArrowFunctions": false
             }
         ],
+
+        "@typescript-eslint/quotes": [
+            "error",
+            "single",
+            { "avoidEscape": true, "allowTemplateLiterals": false }
+        ],
     },
     overrides: [
         {
