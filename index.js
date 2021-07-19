@@ -76,6 +76,8 @@ module.exports = {
                 "message": "Relative imports are not allowed. Please use \'@\' for a module or \'@/\' for the project root."
             }]
         }],
+        "no-console": process.env.NODE_ENV === 'production' ? "error" : "warn",
+        "no-warning-comments": process.env.NODE_ENV === 'production' ? "error" : "warn",
 
         "no-loops/no-loops": 2,
 
