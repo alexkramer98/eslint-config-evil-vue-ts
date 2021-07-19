@@ -115,7 +115,11 @@ module.exports = {
                 "format": ["StrictPascalCase"]
             },
             {
-                "selector": ["variable", "parameter"],
+                "selector": "objectLiteralProperty",
+                "format": ["strictPascalCase", "StrictPascalCase"]
+            },
+            {
+                "selector": ["variable", "parameter", "accessor"],
                 "types": ["boolean"],
                 "format": ["PascalCase"],
                 "prefix": ["is", "has", "are", "can", "should", "did", "will"]
