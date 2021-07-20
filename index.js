@@ -95,19 +95,19 @@ module.exports = {
             "error",
             {
                 "selector": "default",
-                "format": ["strictCamelCase"]
+                "format": ["camelCase"]
             },
             {
                 "selector": "function",
-                "format": ["strictCamelCase", "StrictPascalCase"]
+                "format": ["camelCase", "PascalCase"]
             },
             {
                 "selector": "typeLike",
-                "format": ["StrictPascalCase"]
+                "format": ["PascalCase"]
             },
             {
                 "selector": "objectLiteralProperty",
-                "format": ["strictCamelCase", "StrictPascalCase"]
+                "format": ["camelCase", "PascalCase"]
             },
             {
                 "selector": ["variable", "parameter", "accessor"],
