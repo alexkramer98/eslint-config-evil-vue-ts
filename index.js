@@ -110,6 +110,10 @@ module.exports = {
                 "format": ["camelCase", "PascalCase"]
             },
             {
+                "selector": "enumMember",
+                "format": ["PascalCase"]
+            },
+            {
                 "selector": ["variable", "parameter", "accessor"],
                 "types": ["boolean"],
                 "format": ["PascalCase"],
