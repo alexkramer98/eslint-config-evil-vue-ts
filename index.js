@@ -39,9 +39,6 @@ module.exports = {
                 "builtinGlobals": true,
                 "allow": ["defaultStatus", "event", "find", "length", "name", "status", "state"]
             }],
-        "no-void": ["error", {
-            "allowAsStatement": true,
-        }],
         "no-param-reassign": [
             "error",
             {
