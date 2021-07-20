@@ -87,6 +87,8 @@ module.exports = {
             { "avoidEscape": true, "allowTemplateLiterals": false }
         ],
 
+        "@typescript-eslint/prefer-nullish-coalescing": "error",
+
         "putout/putout": "off",
 
         "@typescript-eslint/naming-convention": [
