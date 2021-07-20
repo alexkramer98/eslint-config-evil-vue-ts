@@ -89,7 +89,7 @@ module.exports = {
         "putout/putout": "off",
 
         "@typescript-eslint/no-magic-numbers": [
-            "error", { "ignoreEnums": true }
+            "error", { "ignoreEnums": true, "ignore": [0, 1], "enforceConst": true, "ignoreDefaultValues": true }
         ],
 
         "@typescript-eslint/naming-convention": [
