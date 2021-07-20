@@ -10,13 +10,16 @@ module.exports = {
     ],
     plugins: [
         "no-loops",
-        "import"
+        "import",
+        "eslint-comments"
     ],
     env: {
         es2021: true,
         browser: true,
     },
     rules: {
+        "eslint-comments/require-description": "error",
+
         "vue/html-self-closing": ["error", {
             "html": {
                 "void": "always"
