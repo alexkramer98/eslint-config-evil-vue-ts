@@ -17,6 +17,12 @@ module.exports = {
         browser: true,
     },
     rules: {
+        "vue/html-self-closing": ["error", {
+            "html": {
+                "void": "always"
+            }
+        }],
+
         "prettier/prettier": "off",
 
         "prettier-vue/prettier": ["error", {
