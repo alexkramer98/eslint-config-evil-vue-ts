@@ -91,6 +91,10 @@ module.exports = {
 
         "putout/putout": "off",
 
+        "@typescript-eslint/no-magic-numbers": [
+            "error", { "ignoreEnums": true }
+        ],
+
         "@typescript-eslint/naming-convention": [
             "error",
             {
