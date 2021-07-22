@@ -35,7 +35,7 @@ module.exports = {
         }],
 
         "no-shadow": "off",
-        "typescript-eslint/no-shadow": ["error",
+        "@typescript-eslint/no-shadow": ["error",
             {
                 "builtinGlobals": true,
                 "allow": ["defaultStatus", "event", "find", "length", "name", "status", "state", "getters"]
