@@ -34,11 +34,13 @@ module.exports = {
             tabWidth: 4,
         }],
 
-        "no-shadow": ["error",
+        "no-shadow": "off",
+        "typescript-eslint/no-shadow": ["error",
             {
                 "builtinGlobals": true,
-                "allow": ["defaultStatus", "event", "find", "length", "name", "status", "state"]
-            }],
+                "allow": ["defaultStatus", "event", "find", "length", "name", "status", "state", "getters"]
+            }
+        ],
         "no-param-reassign": [
             "error",
             {
