@@ -91,6 +91,9 @@ module.exports = {
         ],
 
         "@typescript-eslint/prefer-nullish-coalescing": "error",
+        "@typescript-eslint/array-type": ["error", {
+            default: 'generic'
+        }],
 
         "putout/putout": "off",
 
