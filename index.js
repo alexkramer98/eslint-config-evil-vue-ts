@@ -18,6 +18,7 @@ module.exports = {
         browser: true,
     },
     rules: {
+        'no-magic-numbers': 'off',
         "eslint-comments/require-description": "error",
 
         "vue/html-self-closing": ["error", {
