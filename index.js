@@ -132,6 +132,16 @@ module.exports = {
                 "prefix": ["is", "has", "are", "can", "should", "did", "will"]
             }
         ],
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+                "js": "never",
+                "jsx": "never",
+                "ts": "never",
+                "tsx": "never",
+            }
+        ]
     },
     overrides: [
         {
@@ -147,8 +157,8 @@ module.exports = {
                 map: [
                     ['@', './src']
                 ],
-                extensions: ['.js', '.json', '.vue']
-            }
+                extensions: ['.js', '.json', '.ts', '.vue']
+            },
         }
     },
 }
