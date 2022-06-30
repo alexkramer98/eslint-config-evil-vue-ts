@@ -3113,14 +3113,14 @@ eslint-plugin-node@^11.0.0, eslint-plugin-node@^11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-prettier-vue@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier-vue/-/eslint-plugin-prettier-vue-4.1.0.tgz#4e17d3770923ca3f028de713305c06b94e687c70"
-  integrity sha512-fh2HfRpyAs60LkwTfSvBy4BfYgf5YW6KplpOvkPUyFyeeYBD/pSlBhXHCbZklcnkbURptfHs2fdiqGeB+SYSIw==
+eslint-plugin-prettier-vue@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier-vue/-/eslint-plugin-prettier-vue-4.2.0.tgz#f24d684a41f8fb112977302689248ffe68175548"
+  integrity sha512-DA2oNRx+pZ6RM/EIHIPME4FQZifnkEROa55OWtTTUFGHpj53tcHomuxVP/kS/2MM+ul46GEK+jymK69STWDWoA==
   dependencies:
     "@vue/compiler-sfc" "^3.2.37"
     chalk "^4.0.0"
-    prettier "^2.6.2"
+    prettier "^2.7.1"
     prettier-linter-helpers "^1.0.0"
 
 eslint-plugin-prettier@^4.0.0:
@@ -5511,7 +5511,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.6.2, prettier@^2.7.1:
+prettier@^2.7.1:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.1.tgz#e235806850d057f97bb08368a4f7d899f7760c64"
   integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
