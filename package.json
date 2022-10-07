@@ -27,7 +27,7 @@
   "homepage": "https://github.com/alexkramer98/eslint-config-evil-vue-ts/#readme",
   "dependencies": {
     "@vue/eslint-config-typescript": "^7.0.0",
-    "eslint-config-hardcore": "^24.8.0",
+    "eslint-config-hardcore": "^25.1.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-no-loops": "^0.3.0",
